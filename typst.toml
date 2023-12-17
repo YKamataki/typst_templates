@@ -1,0 +1,18 @@
+[package]
+name = "ja_documents"
+version = "1.0.0"
+entrypoint = "main.typ"
+authors = ["Yuya KAMATAKI"]
+license = "Unlicense"
+description = "typst templates for Japanese"
+repository = "https://github.com/YKamataki/typst_templates"
+homepage = ""
+keywords = [
+    "Japanese",
+    "report",
+]
+compiler = "0.7.0"
+exclude = []
+
+[utpm]
+version = "2"
