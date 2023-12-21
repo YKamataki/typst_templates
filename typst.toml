@@ -1,6 +1,6 @@
 [package]
 name = "ja_documents"
-version = "1.0.0"
+version = "1.0.1"
 entrypoint = "main.typ"
 authors = ["Yuya KAMATAKI"]
 license = "Unlicense"

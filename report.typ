@@ -15,7 +15,7 @@
 
   // Set run-in subheadings, starting at level 3.
   show heading: it => {
-    if it.level > 2 {
+    if it.level > 3 {
       parbreak()
       text(11pt, style: "italic", weight: "regular", it.body + ".")
     } else {
@@ -35,7 +35,7 @@
   
   // Title row.
   align(center)[
-    #block(text(font: sans-font, weight: 700, 1.75em, title))
+    #block(underline(text(font: sans-font, weight: 700, 1.75em, title)))
     #v(1em, weak: true)
   ]
 
@@ -47,7 +47,7 @@
     grid(
       columns: (1fr,) * calc.min(3, authors.len()),
       gutter: 1em,
-      ..authors.map(author => align(right, strong(author))),
+      ..authors.map(author => align(right, author)),
     ),
   )
 
