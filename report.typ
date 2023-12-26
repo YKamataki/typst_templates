@@ -6,8 +6,8 @@
   set document(author: authors, title: title)
 
   // Save heading and body font families in variables.
-  let body-font = "IPAexMincho"
-  let sans-font = "IPAexGothic"
+  let body-font = "BIZ UDPMincho"
+  let sans-font = "BIZ UDPGothic"
 
   // Set body font family.
   set text(font: body-font, lang: "ja")
