@@ -1,7 +1,7 @@
 [package]
 name = "ja_documents"
-version = "1.0.2"
-entrypoint = "main.typ"
+version = "1.1.2"
+entrypoint = "report.typ"
 authors = ["Yuya KAMATAKI"]
 license = "Unlicense"
 description = "typst templates for Japanese"
@@ -12,7 +12,7 @@ keywords = [
     "report",
 ]
 compiler = "0.7.0"
-exclude = []
+exclude = ["report.pdf"]
 
 [utpm]
 version = "2"
