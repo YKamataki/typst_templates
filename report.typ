@@ -11,11 +11,18 @@
 
   // Set body font family.
   set text(font: body-font, lang: "ja")
-  show heading: set text(font: sans-font)
+  set text(spacing: 0%)
+  set par(first-line-indent: 1em)
+  show heading: it => {
+    set text(font: sans-font)
+    it
+    par(text(size: 0pt, ""))
+  }
+  
 
   // Set run-in subheadings, starting at level 3.
   show heading: it => {
-    if it.level > 3 {
+    if it.level > 2 {
       parbreak()
       text(11pt, style: "italic", weight: "regular", it.body + ".")
     } else {
@@ -35,7 +42,7 @@
   
   // Title row.
   align(center)[
-    #block(underline(text(font: sans-font, weight: 700, 1.75em, title)))
+    #block(text(font: sans-font, weight: 700, 1.75em, title))
     #v(1em, weak: true)
   ]
 
