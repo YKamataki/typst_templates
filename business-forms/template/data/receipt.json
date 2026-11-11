@@ -1,0 +1,19 @@
+{
+  "number": "RCP-2026-1101",
+  "issue_date": "2026-11-06",
+  "recipient": "見本 花子 様",
+  "issuer": {
+    "name": "株式会社青葉商会",
+    "address": "千葉県浦安市見本町1-2-3",
+    "registration_number": "T0000000000000"
+  },
+  "subject": "持ち帰り用コーヒー豆およびギフト包装代として",
+  "transaction_date": "2026-11-04",
+  "received_on": "2026-11-05",
+  "payment_method": "クレジットカード",
+  "price_mode": "inclusive",
+  "items": [
+    { "description": "焙煎コーヒー豆 200g（持ち帰り）", "quantity": 2, "unit_price": 1296, "tax_rate": 8 },
+    { "description": "ギフト包装", "quantity": 1, "unit_price": 220, "tax_rate": 10 }
+  ]
+}

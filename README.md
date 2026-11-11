@@ -10,7 +10,7 @@ So you can write documents in typst.
 
 At first clone this repo.
 ```sh
-git clone https://ghithub.com/YKamataki/typst_templates
+git clone https://github.com/YKamataki/typst_templates
 ```
 
 You can copy `report.typ` to your project directory.
@@ -24,7 +24,7 @@ utpm link
 
 ```typst
 // for utpm user
-#import "@local/ja_report/1.0.2" : *
+#import "@local/ja-report:1.1.3" : *
 #show : project.with(
     subject: "Introduction to typst",
     date: "2024年1月1日", // You can use any style. This is just a string
@@ -41,3 +41,7 @@ Main contents here
 
 All Fields are optional.
 
+## 日本国内向けの請求書・領収書
+
+[`business-forms/`](business-forms/README.md) に、JSONで入力できる独立したTypstテンプレートがあります。
+使用例、税率別集計、`typst init` での導入方法はリンク先を参照してください。
