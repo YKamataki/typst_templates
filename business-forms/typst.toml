@@ -1,0 +1,12 @@
+[package]
+name = "jp-business-forms"
+version = "0.1.0"
+entrypoint = "template/lib.typ"
+compiler = "0.15.1"
+authors = ["Yuya KAMATAKI"]
+license = "Unlicense"
+description = "Japanese invoice and receipt templates with JSON input"
+
+[template]
+path = "template"
+entrypoint = "invoice.typ"

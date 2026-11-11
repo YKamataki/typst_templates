@@ -1,0 +1,22 @@
+{
+  "number": "INV-2026-1101",
+  "issue_date": "2026-11-06",
+  "recipient": "合同会社みなと企画 御中",
+  "issuer": {
+    "name": "株式会社青葉商会",
+    "address": "千葉県浦安市見本町1-2-3",
+    "contact": "billing@example.jp",
+    "registration_number": "T0000000000000"
+  },
+  "subject": "秋季展示会の会場設営・備品代",
+  "transaction_date": "2026-11-02",
+  "price_mode": "exclusive",
+  "rounding": "floor",
+  "due_date": "2026-11-30",
+  "bank": "見本銀行　中央支店　普通 0000000　カ）アオバショウカイ",
+  "items": [
+    { "description": "展示会場の設営作業", "quantity": 1, "unit_price": 38000, "tax_rate": 10 },
+    { "description": "会場案内冊子の印刷", "quantity": 36, "unit_price": 185, "tax_rate": 10 },
+    { "date": "2026-11-03", "description": "持ち帰り用煎茶（未開封）", "quantity": 24, "unit_price": 165, "tax_rate": 8 }
+  ]
+}
